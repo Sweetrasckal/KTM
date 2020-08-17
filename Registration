@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Registration </title>
+    </head>
+    <body>
+        <form>
+            Name : <input type="text" required><br>
+            Email : <input type="email" required><br>
+            Contact : <input type="tel" required><br>
+            Model : <br> 
+            <input type="radio" name="Model"> Duke <br>
+            <input type="radio" name="Model"> RC <br>
+            Cubic Centimeters(cc) : <br>
+            <input type="radio" name="Cubic Centimeters(cc)"> 125 <br>
+            <input type="radio" name="Cubic Centimeters(cc)"> 200 <br>
+            <input type="radio" name="Cubic Centimeters(cc)"> 390 <br>
+            <input type="submit" value="Register"> 
+            <input type="reset">
+        </form>
+    </body>
+</html>    

@@ -1,0 +1,53 @@
+h2{
+    color: orangered;
+    background-color: black;
+    text-align: center;
+    font-size:30px;
+    /* box-shadow:10px 8px grey; */
+}
+body{
+    background-color: orangered; 
+    /* background-image:url("KTMlogo.png"); */
+}
+
+#div1{
+    background-color: gold;
+}
+
+.div2{
+    background-color: yellow;
+}
+
+footer{
+    text-align:center;
+    font-size:20px;
+    font-family:'Times new roman';
+}
+
+.click{ 
+    border:2px solid grey;
+    margin:5px 5px;
+    padding:0px 5px;
+}
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+}
+
+img{
+    height:250px;
+    width:250px;
+    margin:20px 20px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform:scale(1.1);
+}
+
+/* a[class="click"] { 
+    display : inline block;
+} */
